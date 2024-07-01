@@ -2,14 +2,10 @@ import AppleLogo from "../assets/logos/app_store.svg";
 import GooglePlay from "../assets/logos/google_play.svg";
 import GooglePlayBright from "../assets/logos/google_play_bright.svg";
 import StoreLink from "../common/StoreLink";
+import { BtnTypes } from "./BtnTypes";
 
 interface StoreLinksProps {
   type: BtnTypes;
-}
-
-export enum BtnTypes {
-  Standard,
-  Variant,
 }
 
 function StoreLinks({ type }: StoreLinksProps) {

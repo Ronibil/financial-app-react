@@ -1,4 +1,5 @@
-import StoreLinks, { BtnTypes } from "../common/StoreLinks";
+import StoreLinks from "../common/StoreLinks";
+import { BtnTypes } from "../common/BtnTypes";
 import Phone from "../assets/mockup.svg";
 import HeroImage from "../assets/hero.png";
 
